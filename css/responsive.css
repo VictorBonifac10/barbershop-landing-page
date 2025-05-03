@@ -1,0 +1,60 @@
+@media screen and (max-width: 950px) {
+
+    .link-header {
+        display: none;
+    }
+
+    .login {
+        display: block;
+        margin: 0 auto;
+    }
+
+    main {
+        display: block;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+    }
+
+    .lorem {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .content-two {
+        width: 270px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .haircut {
+        display: block;
+        margin: 0 auto;
+        width: 600px;
+    }
+
+}
+
+@media screen and (max-width: 690px) {
+
+    .haircut {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .haircut {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .haircut {
+        width: 250px;
+    }
+}
